@@ -30,6 +30,11 @@
             <artifactId>testng</artifactId>
             <version>6.11</version>
         </dependency>
+        <dependency>
+            <groupId>com.googlecode.fighting-layout-bugs</groupId>
+            <artifactId>fighting-layout-bugs</artifactId>
+            <version>0.6</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -46,7 +51,7 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>demo.StartSafari</mainClass>
+                    <mainClass>demo.StartiOSSafari</mainClass>
                 </configuration>
             </plugin>
         </plugins>
